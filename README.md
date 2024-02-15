@@ -16,5 +16,3 @@
 ### 🌱Baekjoon🌱
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/generate_badge?boj=smc5720)](https://solved.ac/smc5720)
 <br/><br/><br/>
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=smc5720&&show_icons=true&theme=tokyonight)
