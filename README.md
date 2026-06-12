@@ -63,9 +63,9 @@
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/your.email@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=ea4335)](mailto:your.email@gmail.com)
-[![Blog](https://img.shields.io/badge/your.blog-0d1117?style=for-the-badge&logo=hashnode&logoColor=60a5fa)](https://your.blog)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=22d3ee)](https://linkedin.com/in/smc5720)
+[![Email](https://img.shields.io/badge/smc5720@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=ea4335)](mailto:smc5720@gmail.com)
+[![Blog](https://img.shields.io/badge/smc5720.github.io-0d1117?style=for-the-badge&logo=githubpages&logoColor=60a5fa)](https://smc5720.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn_%EC%A4%80%EB%B9%84%EC%A4%91-0d1117?style=for-the-badge&logo=linkedin&logoColor=6e7681)](https://linkedin.com)
 
 </div>
 
