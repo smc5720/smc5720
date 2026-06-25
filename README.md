@@ -3,8 +3,8 @@
 <!-- ╔═══════════════════════  HEADER  ═══════════════════════╗ -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,12,20,30&height=240&section=header&text=Seo%20Mincheol&fontSize=72&fontColor=ffffff&fontAlignY=36&desc=BACKEND%20ENGINEER%20%C2%B7%20WEB%20DEVELOPER&descSize=18&descAlignY=58&animation=fadeIn" alt="header" />
 
-**안정적인 서버와 깔끔한 코드를 만듭니다.**  
-백엔드와 프론트엔드를 아우르는 웹 개발자.
+**Backend Engineer · Web Developer**  
+Java/Spring 기반 백엔드 개발, 프론트엔드 병행.
 
 </div>
 
@@ -12,8 +12,9 @@
 
 ### &nbsp;`ABOUT`
 
-백엔드 개발을 주로 하며 **Java/Spring** 기반의 견고한 서버를 만드는 것을 좋아합니다.  
-문제를 근본부터 이해하고, 읽기 쉬운 코드와 **명확한 구조**를 지향합니다.
+- **Java/Spring** 기반 백엔드 개발
+- React / Vue 기반 프론트엔드 개발 병행
+- MySQL · Redis 데이터 처리, AWS · Docker 환경 운영
 
 ---
 
