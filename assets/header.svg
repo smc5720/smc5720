@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="hTitle hDesc">
+  <title id="hTitle">Seo Mincheol</title>
+  <desc id="hDesc">Backend Engineer &#183; Live Service &amp; Platform</desc>
+
+  <defs>
+    <linearGradient id="hBase" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#080b14"/>
+      <stop offset=".5" stop-color="#111737"/>
+      <stop offset="1" stop-color="#080b14"/>
+    </linearGradient>
+
+    <!-- Soft aurora blobs are plain radial gradients that fade to zero alpha.
+         Deliberately no feGaussianBlur: a large-stdDeviation blur on shapes this
+         size is very expensive to rasterize and stalls the renderer. -->
+    <radialGradient id="hBlobA">
+      <stop offset="0" stop-color="#a855f7" stop-opacity=".62"/>
+      <stop offset=".45" stop-color="#a855f7" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hBlobB">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".48"/>
+      <stop offset=".45" stop-color="#22d3ee" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hBlobC">
+      <stop offset="0" stop-color="#6366f1" stop-opacity=".55"/>
+      <stop offset=".45" stop-color="#6366f1" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="hGrid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#ffffff" stroke-opacity=".04" stroke-width="1"/>
+    </pattern>
+
+    <linearGradient id="hRule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c084fc" stop-opacity="0"/>
+      <stop offset=".3" stop-color="#c084fc" stop-opacity=".9"/>
+      <stop offset=".7" stop-color="#22d3ee" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="hWave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c084fc" stop-opacity=".2"/>
+      <stop offset=".5" stop-color="#818cf8" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity=".2"/>
+    </linearGradient>
+
+    <radialGradient id="hScrim" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#05070d" stop-opacity=".5"/>
+      <stop offset=".6" stop-color="#05070d" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#05070d" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="hCard">
+      <rect width="1200" height="280" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .hFont {
+      font-family: system-ui, -apple-system, "Segoe UI", "Malgun Gothic",
+                   "Apple SD Gothic Neo", "Noto Sans KR", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .hBlob  { transform-origin: center; }
+    .hBlobA { animation: hDriftA 19s ease-in-out infinite; }
+    .hBlobB { animation: hDriftB 23s ease-in-out infinite; }
+    .hBlobC { animation: hDriftC 27s ease-in-out infinite; }
+    .hWave1 { animation: hBob 9s ease-in-out infinite; }
+    .hWave2 { animation: hBob 13s ease-in-out infinite reverse; }
+
+    @keyframes hDriftA { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(80px, 34px);  } }
+    @keyframes hDriftB { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-70px, 30px); } }
+    @keyframes hDriftC { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(46px, -38px); } }
+    @keyframes hBob    { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(0, -9px);     } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .hBlobA, .hBlobB, .hBlobC, .hWave1, .hWave2 { animation: none; }
+    }
+  </style>
+
+  <g clip-path="url(#hCard)">
+    <rect width="1200" height="280" fill="url(#hBase)"/>
+
+    <circle class="hBlob hBlobA" cx="215" cy="70"  r="330" fill="url(#hBlobA)"/>
+    <circle class="hBlob hBlobB" cx="975" cy="50"  r="360" fill="url(#hBlobB)"/>
+    <circle class="hBlob hBlobC" cx="620" cy="300" r="350" fill="url(#hBlobC)"/>
+
+    <rect width="1200" height="280" fill="url(#hGrid)"/>
+
+    <path class="hWave2" fill="url(#hWave)" opacity=".7"
+          d="M0 226c140-24 260 20 400 4s280-42 420-16 240 40 380 18v48H0z"/>
+    <path class="hWave1" fill="url(#hWave)"
+          d="M0 244c160-20 280 16 440 2s300-34 460-12 200 30 300 14v32H0z"/>
+
+    <ellipse cx="600" cy="160" rx="520" ry="130" fill="url(#hScrim)"/>
+
+    <!-- No animation on the text: visibility must never depend on animation
+         support, since some img/proxy contexts never start it. -->
+    <g class="hFont" text-anchor="middle">
+      <text x="600" y="142" fill="#ffffff" font-size="64" font-weight="700" letter-spacing="1.5">Seo Mincheol</text>
+      <rect x="380" y="166" width="440" height="1.5" fill="url(#hRule)"/>
+      <text x="600" y="205" fill="#dbe2ec" font-size="15.5" font-weight="600" letter-spacing="4">BACKEND ENGINEER &#183; LIVE SERVICE &amp; PLATFORM</text>
+    </g>
+
+    <rect width="1199" height="279" x=".5" y=".5" rx="19.5" fill="none" stroke="#ffffff" stroke-opacity=".09"/>
+  </g>
+</svg>

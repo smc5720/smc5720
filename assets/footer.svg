@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" role="img" aria-label="">
+  <defs>
+    <linearGradient id="fBase" x1="0" y1="0" x2="1200" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#080b14"/>
+      <stop offset=".5" stop-color="#111737"/>
+      <stop offset="1" stop-color="#080b14"/>
+    </linearGradient>
+
+    <!-- Same as header.svg: gradient-only blobs, no blur filter (too costly). -->
+    <radialGradient id="fBlobA">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".5"/>
+      <stop offset=".45" stop-color="#22d3ee" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="fBlobB">
+      <stop offset="0" stop-color="#a855f7" stop-opacity=".6"/>
+      <stop offset=".45" stop-color="#a855f7" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="fBlobC">
+      <stop offset="0" stop-color="#6366f1" stop-opacity=".55"/>
+      <stop offset=".45" stop-color="#6366f1" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="fWave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".2"/>
+      <stop offset=".5" stop-color="#818cf8" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#c084fc" stop-opacity=".2"/>
+    </linearGradient>
+
+    <clipPath id="fCard">
+      <rect width="1200" height="140" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .fBlob  { transform-origin: center; }
+    .fBlobA { animation: fDriftA 21s ease-in-out infinite; }
+    .fBlobB { animation: fDriftB 25s ease-in-out infinite; }
+    .fBlobC { animation: fDriftC 29s ease-in-out infinite; }
+    .fWave1 { animation: fBob 10s ease-in-out infinite; }
+    .fWave2 { animation: fBob 14s ease-in-out infinite reverse; }
+
+    @keyframes fDriftA { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-74px, 22px); } }
+    @keyframes fDriftB { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(66px, 26px);  } }
+    @keyframes fDriftC { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-40px, -28px);} }
+    @keyframes fBob    { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(0, 7px);      } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .fBlobA, .fBlobB, .fBlobC, .fWave1, .fWave2 { animation: none; }
+    }
+  </style>
+
+  <g clip-path="url(#fCard)">
+    <rect width="1200" height="140" fill="url(#fBase)"/>
+
+    <circle class="fBlob fBlobA" cx="240" cy="130" r="280" fill="url(#fBlobA)"/>
+    <circle class="fBlob fBlobB" cx="960" cy="140" r="300" fill="url(#fBlobB)"/>
+    <circle class="fBlob fBlobC" cx="600" cy="-20" r="280" fill="url(#fBlobC)"/>
+
+    <path class="fWave2" fill="url(#fWave)" opacity=".7"
+          d="M0 44c150 22 270-18 420-4s280 40 420 16 240-36 360-16V0H0z"/>
+    <path class="fWave1" fill="url(#fWave)"
+          d="M0 26c160 20 280-14 440 0s300 34 460 12 200-28 300-12V0H0z"/>
+
+    <rect width="1199" height="139" x=".5" y=".5" rx="19.5" fill="none" stroke="#ffffff" stroke-opacity=".09"/>
+  </g>
+</svg>

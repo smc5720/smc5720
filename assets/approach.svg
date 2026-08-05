@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="236" viewBox="0 0 1200 236" role="img" aria-labelledby="aTitle aDesc">
+  <title id="aTitle">How I work</title>
+  <desc id="aDesc">반복되는 운영 요구를 패턴으로 추출하고, 설정 기반 엔진을 거쳐 재사용 가능한 플랫폼으로 만듭니다.</desc>
+
+  <defs>
+    <linearGradient id="aBase" x1="0" y1="0" x2="1200" y2="236" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a0e18"/>
+      <stop offset=".55" stop-color="#0d1424"/>
+      <stop offset="1" stop-color="#0a0e18"/>
+    </linearGradient>
+
+    <linearGradient id="aTrack" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c084fc" stop-opacity=".15"/>
+      <stop offset=".33" stop-color="#a78bfa" stop-opacity=".55"/>
+      <stop offset=".66" stop-color="#60a5fa" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity=".15"/>
+    </linearGradient>
+
+    <radialGradient id="aGlow">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="aN1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c084fc"/><stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="aN2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="aN3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#818cf8"/><stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="aN4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+
+    <pattern id="aGrid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#ffffff" stroke-opacity=".03" stroke-width="1"/>
+    </pattern>
+
+    <clipPath id="aCard">
+      <rect width="1200" height="236" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .aFont {
+      font-family: system-ui, -apple-system, "Segoe UI", "Malgun Gothic",
+                   "Apple SD Gothic Neo", "Noto Sans KR", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .aRing { transform-origin: center; animation: aPulse 3.4s ease-in-out infinite; }
+    .aRing2 { animation-delay: .85s; }
+    .aRing3 { animation-delay: 1.7s; }
+    .aRing4 { animation-delay: 2.55s; }
+
+    @keyframes aPulse {
+      0%   { opacity: .55; transform: scale(1);    }
+      60%  { opacity: 0;   transform: scale(1.55); }
+      100% { opacity: 0;   transform: scale(1.55); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .aRing, .aSpark { animation: none; display: none; }
+    }
+  </style>
+
+  <g clip-path="url(#aCard)">
+    <rect width="1200" height="236" fill="url(#aBase)"/>
+    <rect width="1200" height="236" fill="url(#aGrid)"/>
+
+    <rect x="170" y="117" width="830" height="2" fill="url(#aTrack)"/>
+
+    <circle class="aSpark" r="26" fill="url(#aGlow)" cy="118" opacity=".8">
+      <animate attributeName="cx" values="170;1000" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="aSpark" r="4" fill="#e0f7ff" cy="118">
+      <animate attributeName="cx" values="170;1000" dur="5s" repeatCount="indefinite"/>
+    </circle>
+
+    <g class="aFont" text-anchor="middle">
+      <!-- 01 -->
+      <g>
+        <circle class="aRing" cx="170" cy="118" r="30" fill="none" stroke="#c084fc" stroke-width="1.5"/>
+        <circle cx="170" cy="118" r="30" fill="#0d1424" stroke="url(#aN1)" stroke-width="2"/>
+        <text x="170" y="125" fill="#e9d5ff" font-size="16" font-weight="700" letter-spacing=".5">01</text>
+        <text x="170" y="184" fill="#e2e8f0" font-size="15" font-weight="700">반복되는 운영 요구</text>
+        <text x="170" y="206" fill="#64748b" font-size="11.5" font-weight="600" letter-spacing="1.6">EVERY-TIME REQUESTS</text>
+      </g>
+      <!-- 02 -->
+      <g>
+        <circle class="aRing aRing2" cx="447" cy="118" r="30" fill="none" stroke="#a78bfa" stroke-width="1.5"/>
+        <circle cx="447" cy="118" r="30" fill="#0d1424" stroke="url(#aN2)" stroke-width="2"/>
+        <text x="447" y="125" fill="#ddd6fe" font-size="16" font-weight="700" letter-spacing=".5">02</text>
+        <text x="447" y="184" fill="#e2e8f0" font-size="15" font-weight="700">패턴 추출 · 추상화</text>
+        <text x="447" y="206" fill="#64748b" font-size="11.5" font-weight="600" letter-spacing="1.6">FIND THE PATTERN</text>
+      </g>
+      <!-- 03 -->
+      <g>
+        <circle class="aRing aRing3" cx="723" cy="118" r="30" fill="none" stroke="#818cf8" stroke-width="1.5"/>
+        <circle cx="723" cy="118" r="30" fill="#0d1424" stroke="url(#aN3)" stroke-width="2"/>
+        <text x="723" y="125" fill="#dbeafe" font-size="16" font-weight="700" letter-spacing=".5">03</text>
+        <text x="723" y="184" fill="#e2e8f0" font-size="15" font-weight="700">설정 기반 엔진</text>
+        <text x="723" y="206" fill="#64748b" font-size="11.5" font-weight="600" letter-spacing="1.6">CONFIG-DRIVEN ENGINE</text>
+      </g>
+      <!-- 04 -->
+      <g>
+        <circle class="aRing aRing4" cx="1000" cy="118" r="30" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
+        <circle cx="1000" cy="118" r="30" fill="#0d1424" stroke="url(#aN4)" stroke-width="2"/>
+        <text x="1000" y="125" fill="#cffafe" font-size="16" font-weight="700" letter-spacing=".5">04</text>
+        <text x="1000" y="184" fill="#e2e8f0" font-size="15" font-weight="700">재사용 가능한 플랫폼</text>
+        <text x="1000" y="206" fill="#64748b" font-size="11.5" font-weight="600" letter-spacing="1.6">REUSABLE PLATFORM</text>
+      </g>
+    </g>
+
+    <rect width="1199" height="235" x=".5" y=".5" rx="17.5" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+  </g>
+</svg>

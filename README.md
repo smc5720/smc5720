@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ╔═══════════════════════  HEADER  ═══════════════════════╗ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,12,20,30&height=240&section=header&text=Seo%20Mincheol&fontSize=72&fontColor=ffffff&fontAlignY=36&desc=BACKEND%20ENGINEER%20%C2%B7%20LIVE%20SERVICE%20%26%20PLATFORM&descSize=18&descAlignY=58&animation=fadeIn" alt="header" />
+<img width="100%" src="assets/header.svg" alt="Seo Mincheol — Backend Engineer · Live Service & Platform" />
 
 **Backend Engineer**  
 대규모 라이브 서비스 백엔드를 설계·운영합니다. 반복되는 일을 플랫폼으로 바꾸는 걸 좋아합니다.
@@ -89,12 +89,11 @@
 
 ---
 
-### &nbsp;`STATS`
+### &nbsp;`HOW I WORK`
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=smc5720&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=c084fc&icon_color=22d3ee&text_color=8b949e&hide=contribs" alt="stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=smc5720&layout=compact&hide_border=true&langs_count=6&bg_color=0d1117&title_color=c084fc&text_color=8b949e" alt="top langs" />
+<img width="100%" src="assets/approach.svg" alt="반복되는 운영 요구 → 패턴 추출·추상화 → 설정 기반 엔진 → 재사용 가능한 플랫폼" />
 
 </div>
 
@@ -111,7 +110,7 @@
 </div>
 
 <div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,12,20,30&height=120&section=footer" alt="footer" />
+<img width="100%" src="assets/footer.svg" alt="" />
 </div>
 
 <!--
