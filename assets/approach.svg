@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="236" viewBox="0 0 1200 236" role="img" aria-labelledby="aTitle aDesc">
   <title id="aTitle">How I work</title>
-  <desc id="aDesc">반복되는 운영 요구를 패턴으로 추출하고, 설정 기반 엔진을 거쳐 재사용 가능한 플랫폼으로 만듭니다.</desc>
+  <desc id="aDesc">운영 중 반복되는 요청에서 공통 흐름을 찾고, 설정으로 동작을 바꿔 다른 이벤트에도 적용합니다.</desc>
 
   <defs>
     <linearGradient id="aBase" x1="0" y1="0" x2="1200" y2="236" gradientUnits="userSpaceOnUse">
@@ -83,32 +83,32 @@
         <circle class="aRing" cx="170" cy="118" r="30" fill="none" stroke="#c084fc" stroke-width="1.5"/>
         <circle cx="170" cy="118" r="30" fill="#0d1424" stroke="url(#aN1)" stroke-width="2"/>
         <text x="170" y="125" fill="#e9d5ff" font-size="16" font-weight="700" letter-spacing=".5">01</text>
-        <text x="170" y="184" fill="#e2e8f0" font-size="15" font-weight="700">반복되는 운영 요구</text>
-        <text x="170" y="206" fill="#64748b" font-size="11.5" font-weight="600" letter-spacing="1.6">EVERY-TIME REQUESTS</text>
+        <text x="170" y="184" fill="#e2e8f0" font-size="15" font-weight="700">반복되는 운영 요청</text>
+        <text x="170" y="206" fill="#64748b" font-size="11.5" font-weight="600" letter-spacing="1.6">RECURRING OPERATIONS</text>
       </g>
       <!-- 02 -->
       <g>
         <circle class="aRing aRing2" cx="447" cy="118" r="30" fill="none" stroke="#a78bfa" stroke-width="1.5"/>
         <circle cx="447" cy="118" r="30" fill="#0d1424" stroke="url(#aN2)" stroke-width="2"/>
         <text x="447" y="125" fill="#ddd6fe" font-size="16" font-weight="700" letter-spacing=".5">02</text>
-        <text x="447" y="184" fill="#e2e8f0" font-size="15" font-weight="700">패턴 추출 · 추상화</text>
-        <text x="447" y="206" fill="#64748b" font-size="11.5" font-weight="600" letter-spacing="1.6">FIND THE PATTERN</text>
+        <text x="447" y="184" fill="#e2e8f0" font-size="15" font-weight="700">공통 흐름 찾기</text>
+        <text x="447" y="206" fill="#64748b" font-size="11.5" font-weight="600" letter-spacing="1.6">IDENTIFY COMMON FLOW</text>
       </g>
       <!-- 03 -->
       <g>
         <circle class="aRing aRing3" cx="723" cy="118" r="30" fill="none" stroke="#818cf8" stroke-width="1.5"/>
         <circle cx="723" cy="118" r="30" fill="#0d1424" stroke="url(#aN3)" stroke-width="2"/>
         <text x="723" y="125" fill="#dbeafe" font-size="16" font-weight="700" letter-spacing=".5">03</text>
-        <text x="723" y="184" fill="#e2e8f0" font-size="15" font-weight="700">설정 기반 엔진</text>
-        <text x="723" y="206" fill="#64748b" font-size="11.5" font-weight="600" letter-spacing="1.6">CONFIG-DRIVEN ENGINE</text>
+        <text x="723" y="184" fill="#e2e8f0" font-size="15" font-weight="700">설정으로 동작 제어</text>
+        <text x="723" y="206" fill="#64748b" font-size="11.5" font-weight="600" letter-spacing="1.6">CONFIGURE BEHAVIOR</text>
       </g>
       <!-- 04 -->
       <g>
         <circle class="aRing aRing4" cx="1000" cy="118" r="30" fill="none" stroke="#22d3ee" stroke-width="1.5"/>
         <circle cx="1000" cy="118" r="30" fill="#0d1424" stroke="url(#aN4)" stroke-width="2"/>
         <text x="1000" y="125" fill="#cffafe" font-size="16" font-weight="700" letter-spacing=".5">04</text>
-        <text x="1000" y="184" fill="#e2e8f0" font-size="15" font-weight="700">재사용 가능한 플랫폼</text>
-        <text x="1000" y="206" fill="#64748b" font-size="11.5" font-weight="600" letter-spacing="1.6">REUSABLE PLATFORM</text>
+        <text x="1000" y="184" fill="#e2e8f0" font-size="15" font-weight="700">다른 이벤트에도 적용</text>
+        <text x="1000" y="206" fill="#64748b" font-size="11.5" font-weight="600" letter-spacing="1.6">REUSE ACROSS EVENTS</text>
       </g>
     </g>
 
